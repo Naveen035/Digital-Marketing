@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <header id="navbarSection">
+        <nav>
+        <div class="nav-container">
+            <a class="navbar-brand" href="https://www.fylehq.com/"><img src = "https://www.fylehq.com/assets/images/svg-images/fylelogo.svg" alt = "Logo_img" class="logo-image"/></a>
+            <div>
+                <ul class="nav-link-container">
+                    <li>
+                        <a href="#" style="text-decoration: none;" class="nav-link" data-target="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="text-decoration: none;" class="nav-link" data-target="experts-growth">
+                          Experts Growth
+                        </a>
+                    </li>
+                    <li>
+                        <a style="text-decoration: none;" class="nav-link" data-target="our-project">Our Project</a>
+                    </li>
+                    <li>
+                        <a style="text-decoration: none;" class="nav-link" data-target="what-we-do">What We Do</a>
+                    </li>
+                    <li>
+                        <li><a href="#" class="nav-link" data-target="contactus">Contact Us</a></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <div id="content">
+    <div id="home" class="content-section active">
+        <div style="display: flex;">
+        <div class="heading3" >
+            <h1 style="color: white; margin-top: 250px;">Hello Welcome to the Digital<br> Marketing Agency!</h1>
+        </div>
+        <div>
+            <img src="https://img.freepik.com/free-photo/digital-marketing-with-icons-business-people_53876-94833.jpg?size=626&ext=jpg&ga=GA1.1.33988548.1719825632&semt=ais_user" alt="agency" class="home-image">
+        </div>
+        </div>
+    </div>
+    <section id="contactus" class="content-section">
+        <div class="contact-main-container">
+          <div class="contact-container">
+            <h3 class="heading1">AWARD WINNING</h3>
+            <h1 class="heading2">DIGITAL MARKETING <br>AGENCY</h1>
+            <p>Hello welcome to the digital marketing agency....</p>
+            <button class="contact-button" onclick="openPopup()">Contact us</button>
+          </div>
+          <div class="contact-image-container">
+            <img src="https://images.pexels.com/photos/7309876/pexels-photo-7309876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Digital Marketing Agency" class="contact-image">
+          </div>
+        </div>
+      </section>
+      <section id="form" class="popup-overlay">
+        <div class="popup-content">
+          <span class="popup-close" onclick="closePopup()"><i class="fa-solid fa-x"></i></span>
+          <div class="form-conatinner">
+            <h1>Talk to Us</h1>
+            <input type="email" placeholder="Work email*" required>
+            <div>
+              <input type="text" placeholder="First Name*" required>
+              <input type="text" placeholder="Last Name*" required>
+            </div>
+            <div class="input-container">
+              <input type="checkbox" required>
+              <p>I agree to Fyle's terms and Conditions, and Provide <br>consent to send me communication</p>
+            </div>
+            <button class="contact-button" style="margin-left: 12px; width: 27vw;" type="submit">Contact us</button>
+          </div>
+        </div>
+      </section>
+    <section id="what-we-do" class="content-section">
+        <div class="What-we-do-container">
+          <div style="align-self: flex-start; margin-left: 50px;">
+            <h3 class="heading1">WHAT WE DO</h3>
+            <h1 class="heading2" style="font-size: 2.5rem;">SERVICES PROVIDE <br> FOR YOU</h1>
+          </div>
+          <div style="margin-left: 120px; align-self: center;">
+            <p>The digital marketing agency is the website where it will <br> provide you all the necessary information about the marketing</p>
+          </div>
+        </div>
+        <div class="carousel1" style="margin-left: 50px;">
+          <div class="carousel-inner1">
+            <div class="carousel-item1 active1" onclick="currentSlide(1)">
+              <img src="https://i1.pickpik.com/photos/225/129/260/adult-cold-enjoyment-fashion-preview.jpg" alt="Image 1">
+              <div class="hover-content1">
+                <h3>WEB DEVELOPMENT</h3>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac et purus.</p>
+                <a href="https://www.fylehq.com/" class="read-more1">READ MORE</a>
+              </div>
+            </div>
+            <div class="carousel-item1" onclick="currentSlide(2)">
+              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRzQ3JRrfxgXAasmgd8LEN9xqCoTRMuniN2JAUWg34rkKkuUrrB" alt="Image 2">
+              <div class="hover-content1">
+                <h3>WEB DEVELOPMENT</h3>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac et purus.</p>
+                <a href="https://www.fylehq.com/" class="read-more1">READ MORE</a>
+              </div>
+            </div>
+            <div class="carousel-item1" onclick="currentSlide(3)">
+              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSmQq4k3YayuQfj83Pm-eRqlnWZraX8zGbwS8wYbixMueMDoiMC" alt="Image 3">
+              <div class="hover-content1">
+                <h3>WEB DEVELOPMENT</h3>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac et purus.</p>
+                <a href="https://www.fylehq.com/" class="read-more1">READ MORE</a>
+              </div>
+            </div>
+            <div class="carousel-item1" onclick="currentSlide(4)">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTja2BAxrW_IAxHi_xjMmhHRB3imInVK79o7kloeDFpASnN35mD" alt="Image 4">
+              <div class="hover-content1">
+                <h3>WEB DEVELOPMENT</h3>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac et purus.</p>
+                <a href="https://www.fylehq.com/" class="read-more1">READ MORE</a>
+              </div>
+            </div>
+          </div>
+          <div class="dots1">
+            <span class="dot1 active1" onclick="currentSlide(1)"></span>
+            <span class="dot1" onclick="currentSlide(2)"></span>
+            <span class="dot1" onclick="currentSlide(3)"></span>
+            <span class="dot1" onclick="currentSlide(4)"></span>
+          </div>
+        </div>
+      </section>
+    <section id="our-project" class="content-section">
+        <div class="container">
+          <h2>OUR PROJECT</h2>
+          <h1>WHY WE ARE BEST</h1>
+          <div class="content">
+            <div class="image-container">
+              <img id="main-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTja2BAxrW_IAxHi_xjMmhHRB3imInVK79o7kloeDFpASnN35mD" alt="Main Image">
+            </div>
+            <div class="side-paragraphs">
+              <div class="paragraph active" onclick="changeImage(1)">
+                <h3>Genderless Kei - Japan's Hot</h3>
+                <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+              </div>
+              <div class="paragraph" onclick="changeImage(2)">
+                <h3>Better Strategy & Quality</h3>
+                <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+              </div>
+              <div class="paragraph" onclick="changeImage(3)">
+                <h3>Genderless Kei - Japan's Hot</h3>
+                <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section id="experts-growth" class="content-section">
+        <h3 class="heading1" style="text-align: center;">EXPERTS GROWTH</h3>
+        <h1 style="text-align: center;">OUR COMPANY GROWTH</h1>
+        <div class="experts-container">
+          <div class="growth-container">
+            <i class="fa-solid fa-2x fa-heart icon"></i>
+            <h1>199 +</h1>
+            <p>Staticfied Customers</p>
+          </div>
+          <div class="growth-container">
+            <i class="fa-solid fa-clock fa-2x icon"></i>
+            <h1>1591 +</h1>
+            <p>Days of Operation</p>
+          </div>
+          <div class="growth-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRnQTvpIcKlnhnS65zs3WaejWKujQh9fVCiM83mmim35W0wQc" alt="tick" class="icon1">
+            <h1>283 +</h1>
+            <p>Complete Project</p>
+          </div>
+          <div class="growth-container">
+            <i class="fa-solid fa-trophy fa-2x icon"></i>
+            <h1>75 +</h1>
+            <p>Win Awards</p>
+          </div>
+        </div>
+    </section>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/371c146c9a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
